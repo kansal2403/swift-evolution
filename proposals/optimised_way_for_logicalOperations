@@ -1,0 +1,23 @@
+Hey Team Swift,
+
+Some times we have code like as following
+if indexPath.row == 1 || indexPath.row == 3 || indexPath.row == 6
+{
+    //do something
+   //although we can acheive same using switch with optimised way
+   //But one suggestion for situations like this
+}
+
+//Suggesion in case of OR Operator
+if indexPath.row == ||(1, 3, 6)
+{
+    //do something
+}
+
+//Suggesion in case of AND Operator
+if indexPath.row == &&(1, 3, 6)
+{
+    //do something
+}
+
+Thanks
